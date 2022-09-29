@@ -3,21 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    
+
+    <link href="style.css" rel="stylesheet" type="text/css">
     <title>Nikita Kurylev</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">Nikita Kurylev</a> |
-            <a href="index.html">projects</a> |
-            <a href="index.html">skills</a> |
-            <a href="index.html">hire me</a>
+            <ul>
+                <li class="title"><a href="#about">Nikita<br>Kurylev</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="index.html">hire me</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About me</h2>
             <p>
                 I am a student at ITMO University
@@ -25,16 +28,16 @@
                 <strong>E = mc<sup>2</sup></strong>
             </p>
         </section>
-        <section>
+        <section id="projects">
             <h2>My projects</h2>
-            <ul>
-                <li>Gravitorque</li>
-                <li>Dice Of Doom</li>
-                <li>Blood And Bones</li>
-                <li>Torni</li>
-            </ul>
+            <div class="wrapper">
+                <a href="https://nikalego.itch.io/gravitorque" target="_blank"><img src="images/gravitorque.png"></a>
+                <a href="https://nikalego.itch.io/dice-of-doom" target="_blank"><img src="images/diceofdoom.png"></a>
+                <a href="https://nikalego.itch.io/torni" target="_blank"><img src="images/torni.png"></a>
+                <a href="https://nikalego.itch.io/blood-and-bones" target="_blank"><img src="images/bloodandbones.png"></a>
+            </div>
         </section>
-        <section>
+        <section id="skills">
             <h2>My skills</h2>
             <h3>Languages</h3>
             <ul>
@@ -52,33 +55,6 @@ int main() {
                 </code></pre>
             </ul>
         </section>
-        <section>
-            <pre>
-          _____                    _____                   _______                   _____                    _____                    _____                    _____          
-         /\    \                  /\    \                 /::\    \                 /\    \                  /\    \                  /\    \                  /\    \         
-        /::\    \                /::\____\               /::::\    \               /::\____\                /::\    \                /::\____\                /::\    \        
-       /::::\    \              /::::|   |              /::::::\    \             /::::|   |               /::::\    \              /:::/    /               /::::\    \       
-      /::::::\    \            /:::::|   |             /::::::::\    \           /:::::|   |              /::::::\    \            /:::/    /               /::::::\    \      
-     /:::/\:::\    \          /::::::|   |            /:::/~~\:::\    \         /::::::|   |             /:::/\:::\    \          /:::/    /               /:::/\:::\    \     
-    /:::/__\:::\    \        /:::/|::|   |           /:::/    \:::\    \       /:::/|::|   |            /:::/  \:::\    \        /:::/    /               /:::/__\:::\    \    
-   /::::\   \:::\    \      /:::/ |::|   |          /:::/    / \:::\    \     /:::/ |::|   |           /:::/    \:::\    \      /:::/    /                \:::\   \:::\    \   
-  /::::::\   \:::\    \    /:::/  |::|___|______   /:::/____/   \:::\____\   /:::/  |::|   | _____    /:::/    / \:::\    \    /:::/    /      _____    ___\:::\   \:::\    \  
- /:::/\:::\   \:::\    \  /:::/   |::::::::\    \ |:::|    |     |:::|    | /:::/   |::|   |/\    \  /:::/    /   \:::\ ___\  /:::/____/      /\    \  /\   \:::\   \:::\    \ 
-/:::/  \:::\   \:::\____\/:::/    |:::::::::\____\|:::|____|     |:::|    |/:: /    |::|   /::\____\/:::/____/  ___\:::|    ||:::|    /      /::\____\/::\   \:::\   \:::\____\
-\::/    \:::\  /:::/    /\::/    / ~~~~~/:::/    / \:::\    \   /:::/    / \::/    /|::|  /:::/    /\:::\    \ /\  /:::|____||:::|____\     /:::/    /\:::\   \:::\   \::/    /
- \/____/ \:::\/:::/    /  \/____/      /:::/    /   \:::\    \ /:::/    /   \/____/ |::| /:::/    /  \:::\    /::\ \::/    /  \:::\    \   /:::/    /  \:::\   \:::\   \/____/ 
-          \::::::/    /               /:::/    /     \:::\    /:::/    /            |::|/:::/    /    \:::\   \:::\ \/____/    \:::\    \ /:::/    /    \:::\   \:::\    \     
-           \::::/    /               /:::/    /       \:::\__/:::/    /             |::::::/    /      \:::\   \:::\____\       \:::\    /:::/    /      \:::\   \:::\____\    
-           /:::/    /               /:::/    /         \::::::::/    /              |:::::/    /        \:::\  /:::/    /        \:::\__/:::/    /        \:::\  /:::/    /    
-          /:::/    /               /:::/    /           \::::::/    /               |::::/    /          \:::\/:::/    /          \::::::::/    /          \:::\/:::/    /     
-         /:::/    /               /:::/    /             \::::/    /                /:::/    /            \::::::/    /            \::::::/    /            \::::::/    /      
-        /:::/    /               /:::/    /               \::/____/                /:::/    /              \::::/    /              \::::/    /              \::::/    /       
-        \::/    /                \::/    /                 ~~                      \::/    /                \::/____/                \::/____/                \::/    /        
-         \/____/                  \/____/                                           \/____/                                           ~~                       \/____/         
-                                                                                                                                                                               
-            </pre>
-        </section>
-
         <section>
             <h2>My contacts</h2>
             <p>
