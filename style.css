@@ -5,55 +5,86 @@ html {
 body {
   background-color: black;
   color: white;
+  font-size: large;
+}
+
+main{
   width: 80vw;
   max-width: 50em;
   margin: auto;
-  font-size: large;
 }
 
 header {
   text-align: center;
+  position: sticky;
+  top: 0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  background-image: linear-gradient(180deg, black, rgba(0,0,0,0));
 }
 
-nav ul{
+nav {
+  width: 80vw;
+  max-width: 50em;
+  margin: auto;
+}
+
+nav ul {
   padding: 0%;
   white-space: nowrap;
 }
 
-nav li {
-  display:inline-block;
-  width: 25%;
-  margin:0;
-  vertical-align: middle;
-  font-size: x-large;
+@media (orientation: landscape) {
+  nav li{
+    width: 25%;
+    vertical-align: middle;
+  }
+  nav .menu {
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    font-size: x-large;
+  }
+}
+
+@media (orientation: portrait) {
+  nav li{
+    width: 100%;
+  }
+  nav .menu {
+    display: none;
+  }
 }
 
 nav li a {
+  text-shadow: black 0em 0em 0.75em;
   color: white;
   text-decoration: none;
 }
 
 nav li a:hover {
-  color:black;
+  text-shadow: none;
+  color: black;
   background-color: white;
   text-transform: uppercase;
 }
 
 nav .title {
+  display: inline-block;
   font-size: xx-large;
   text-align: left;
   font-weight: bolder;
   line-height: 0.8em;
 }
 
-footer{
+footer {
   text-align: center;
   font-size: small;
 }
 
-img {
+.wrapper img {
   border-radius: 2em;
-  box-shadow: gray 0px 0px 2em;
+  box-shadow: gray 0px 0px 1em;
   text-align: center;
   max-width: 100%;
   height: auto;
@@ -64,4 +95,19 @@ img {
   grid-template-columns: 47% 47%;
   column-gap: 6%;
   row-gap: 2em;
+}
+
+.wrapper a:nth-child(-n+2) img{
+  box-shadow: lightgray 0px 0px 1.2em;
+}
+
+.about {
+  overflow: hidden;
+}
+
+.portrait {
+  float: right;
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 5%;
 }
