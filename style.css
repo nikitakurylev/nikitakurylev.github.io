@@ -133,8 +133,8 @@ footer {
 }
 
 .todo {
-  color: black;
-  background-color: white;
+  border: solid;
+  border-width: 2px;
   border-radius: 1em;
   padding: 0.5em;
   margin: 0.5em;
