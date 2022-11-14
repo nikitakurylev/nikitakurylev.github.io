@@ -4,7 +4,7 @@ function onSubmit(form) {
     var s = localStorage.getItem('list');
     if(s == null)
         s = "";
-    s += "<li>" + form.text.value + "</li>";
+    s += "<li class='todo'>" + form.text.value + "</li>";
     localStorage.setItem('list', s);
     document.getElementById("list").innerHTML = s;
 }

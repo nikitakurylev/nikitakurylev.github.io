@@ -58,6 +58,7 @@ nav ul {
     font-size: x-large;
     background-color: white;
     font-weight: bold;
+    border-radius: 1em;
   }
 }
 
@@ -66,6 +67,9 @@ nav ul {
     width: 100%;
   }
   nav .menu {
+    display: none;
+  }
+  nav .current {
     display: none;
   }
 }
@@ -126,4 +130,14 @@ footer {
   width: 25%;
   border-radius: 50%;
   margin-right: 5%;
+}
+
+.todo {
+  color: black;
+  background-color: white;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: fit-content;
+  font-weight: bolder;
 }
