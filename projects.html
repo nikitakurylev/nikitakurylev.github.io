@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Nikita Kurylev</title>
-    <script src = "scripts/loadtime.js"></script>
+    <script src="scripts/loadtime.js"></script>
+    <script src="scripts/masonry.pkgd.min.js"></script>
+    <script src="scripts/grid.js"></script>
 </head>
 
 <body>
@@ -23,11 +25,29 @@
     <main>
         <section id="projects">
             <h2>My projects</h2>
-            <div class="wrapper">
-                <a href="https://nikalego.itch.io/gravitorque" target="_blank"><img src="images/gravitorque.png"></a>
-                <a href="https://nikalego.itch.io/dice-of-doom" target="_blank"><img src="images/diceofdoom.png"></a>
-                <a href="https://nikalego.itch.io/torni" target="_blank"><img src="images/torni.png"></a>
-                <a href="https://nikalego.itch.io/blood-and-bones" target="_blank"><img src="images/bloodandbones.png"></a>
+            <div class="grid">
+                <div class="grid-item"><a href="https://nikalego.itch.io/gravitorque" target="_blank"><img
+                            src="images/gravitorque.png">
+                        <h3>Gravitorque</h3>
+                    </a>
+                    <p>Solve challenging problems and collect cogs in this gravitational puzzle platformer!</p>
+                </div>
+                <div class="grid-item"><a href="https://nikalego.itch.io/dice-of-doom" target="_blank"><img
+                            src="images/diceofdoom.png">
+                        <h3>Dice Of Doom</h3>
+                    </a>
+                    <p>Play as the Dice Of Doom in this unique casino-themed roguelike</p>
+                </div>
+                <div class="grid-item"><a href="https://nikalego.itch.io/torni" target="_blank"><img
+                            src="images/torni.png">
+                        <h3>TORNI</h3>
+                    </a>
+                    <p>A physics based puzzle-platformer where you help two robots climb a tower</p>
+                </div>
+                <div class="grid-item"><a href="https://nikalego.itch.io/blood-and-bones" target="_blank"><img
+                            src="images/bloodandbones.png"><h3>Blood and Bones</h3></a>
+                    <p>Cross-platform VR game for two players!</p>
+                </div>
             </div>
         </section>
     </main>
