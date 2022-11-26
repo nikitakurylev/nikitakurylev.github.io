@@ -21,6 +21,7 @@ header {
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0));
+  z-index:1;
 }
 
 a {
@@ -152,4 +153,15 @@ footer {
   border-radius: 1em;
   display: block;
   margin: auto;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
