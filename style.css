@@ -28,54 +28,37 @@ a {
 }
 
 nav {
-  width: 80vw;
   max-width: 50em;
   margin: auto;
 }
 
 nav ul {
-  padding: 0%;
+  padding: 0 5%;
   white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (orientation: landscape) {
-  nav li {
-    width: 25%;
-    vertical-align: middle;
-  }
-
-  nav .menu {
-    display: inline-block;
-    width: 15%;
-    margin: 0 4%;
-    padding: 0.2em;
-    font-size: x-large;
-  }
-
-  nav .current {
-    display: inline-block;
-    width: 15%;
-    margin: 0 4%;
-    padding: 0.2em;
-    font-size: x-large;
-    background-color: white;
-    font-weight: bold;
-    border-radius: 1em;
-  }
+nav li {
+  vertical-align: middle;
 }
 
-@media (orientation: portrait) {
-  nav li {
-    width: 100%;
-  }
+nav .menu {
+  display: inline-block;
+  margin: auto;
+  padding: 0.2em;
+  font-size: x-large;
+}
 
-  nav .menu {
-    display: none;
-  }
-
-  nav .current {
-    display: none;
-  }
+nav .current {
+  display: inline-block;
+  width: 15%;
+  margin: 0 4%;
+  padding: 0.2em;
+  font-size: x-large;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 1em;
 }
 
 nav .menu a {
@@ -117,7 +100,7 @@ footer {
 
 .portrait {
   float: right;
-  width: 25%;
+  width: 10em;
   border-radius: 50%;
   margin-right: 5%;
 }
