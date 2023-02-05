@@ -9,8 +9,9 @@ body {
 }
 
 main {
-  padding: 1vh;
   margin: auto;
+  max-width: 120vh;
+  min-width: 90vw;
 }
 
 header {
@@ -98,6 +99,7 @@ footer {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  padding-right: 1em;
 }
 
 .portrait {
@@ -155,7 +157,7 @@ p {
 }
 .contacts {
   display: flex;
-  justify-content:left;
+  justify-content:space-around;
 }
 .contacts img{
   margin: 0.5em;
