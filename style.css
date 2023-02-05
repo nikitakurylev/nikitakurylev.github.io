@@ -9,8 +9,9 @@ body {
 }
 
 main {
-  width: 80vw;
+  width: auto;
   margin: auto;
+  padding: 0 5vw;
 }
 
 header {
@@ -95,14 +96,21 @@ footer {
 }
 
 .about {
+  display: flex;
+  justify-content: space-between;
   overflow: hidden;
 }
 
+.about div{
+  margin-right: 1em;
+}
+
 .portrait {
-  float: right;
-  width: 10em;
-  border-radius: 50%;
-  margin-right: 5%;
+  height: 40vh;
+  width: 40vh;
+  max-width: 40vw;
+  max-height: 40vw;
+  border-radius: 15%;
 }
 
 .todo {
@@ -149,4 +157,11 @@ footer {
 }
 p {
   line-height: 1.5em;
+}
+.contacts {
+  display: flex;
+  justify-content:left;
+}
+.contacts img{
+  margin: 0.5em;
 }
