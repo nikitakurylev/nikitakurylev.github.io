@@ -147,3 +147,6 @@ footer {
 .headroom--unpinned {
   transform: translateY(-100%);
 }
+p {
+  line-height: 1.5em;
+}
