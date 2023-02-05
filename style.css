@@ -37,6 +37,7 @@ nav ul {
   white-space: nowrap;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav li {
