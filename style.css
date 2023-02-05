@@ -47,14 +47,14 @@ nav li {
 nav .menu {
   display: inline-block;
   margin: auto;
-  padding: 0.2em;
+  padding: 0.3em;
   font-size: x-large;
 }
 
 nav .current {
   display: inline-block;
   margin: auto;
-  padding: 0.2em;
+  padding: 0.3em;
   font-size: x-large;
   background-color: white;
   font-weight: bold;
