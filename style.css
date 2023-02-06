@@ -5,7 +5,6 @@ html {
 body {
   background-color: black;
   color: white;
-  font-size: large;
 }
 
 main {
@@ -161,8 +160,8 @@ p {
 }
 .contacts {
   display: flex;
-  justify-content:center;
+  justify-content:space-evenly;
 }
 .contacts img{
-  margin: 0 2em;
+  width: 3em;
 }
