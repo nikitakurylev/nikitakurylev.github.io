@@ -9,8 +9,6 @@ body {
 
 main {
   margin: auto;
-  max-width: 120vh;
-  min-width: 90vw;
   padding: 0.5em;
 }
 
@@ -163,5 +161,8 @@ p {
   justify-content:space-evenly;
 }
 .contacts img{
-  width: 3em;
+  width: 48px;
+}
+.text {
+  max-width: 100vh;
 }
