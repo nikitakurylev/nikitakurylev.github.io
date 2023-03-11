@@ -167,3 +167,17 @@ p {
 .text {
   max-width: 100vh;
 }
+.job {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+hr {
+  border: none;
+    height: 1px;
+    color: gray;
+    background-color: gray;
+}
+h3 i {
+  font-weight: normal;
+}
